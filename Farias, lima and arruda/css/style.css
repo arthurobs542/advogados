@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.interface {
+  margin: 0 10%;
+  top: 0;
+  left: 0;
+}
+
+header a button,
+.contato a button,
+.endereco a button {
+  color: rgb(255, 255, 255);
+  font-size: 2.3rem;
+  padding: 3px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: rgba(2, 117, 33, 0.999);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+header a button:hover,
+.contato a button:hover,
+.endereco a button:hover {
+  padding: 5px 10px;
+  color: black;
+  font-size: 2.6rem;
+  background-color: rgba(9, 145, 45, 0.775);
+}
+
+/* estilo header */
+
+header .interface {
+  display: block;
+  justify-items: center;
+  height: 95vh;
+}
+
+header {
+  background-image: url(../src/img/header-bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header img {
+  max-width: 500px;
+  padding-top: 150px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+header p {
+  line-height: 45px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+header p span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* estilo especialidades */
+
+.especialidades {
+  background-color: rgb(240, 240, 240);
+}
+
+.especialidades .interface {
+  padding-top: 50px;
+}
+
+.especialidades h2 {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* .especialidades .border {
+  border-bottom: 7px solid rgb(255, 166, 0);
+  border-radius: 10px;
+  width: 20%;
+  margin-bottom: 30px;
+  position: relative;
+  left: 600px;
+} */
+
+.especialidades .listas-especialidades {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.especialidades .listas-especialidades ul li {
+  list-style: none;
+  font-size: 15px;
+}
+
+.especialidades .listas-especialidades ul li::before {
+  content: "✔"; /* Símbolo de check */
+  color: green; /* Cor do check */
+  margin-right: 8px; /* Espaço entre o check e o texto */
+  font-size: 16px;
+  list-style: none;
+}
+
+/* ESTILO BIO */
+
+.especialidades .bio {
+  justify-items: left;
+  display: flex;
+  padding-top: 50px;
+}
+
+.especialidades .bio .txt-bio h1 {
+  font-size: 2.3rem;
+}
+.especialidades .bio .txt-bio h1 span {
+  display: block;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.especialidades .bio .txt-bio p {
+  text-align: justify;
+  max-width: 90%;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.especialidades .bio .img-bio {
+  margin-top: 0;
+}
+
+.especialidades .bio .img-bio img {
+  max-width: 500px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.colaboradores {
+  background-color: rgb(255, 254, 251);
+}
+
+.colaboradores .interface {
+  padding-top: 30px;
+  justify-items: center;
+}
+
+.colaboradores h3 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.colaboradores .colab {
+  display: flex;
+  gap: 250px;
+  margin-bottom: 80px;
+}
+
+.colaboradores .colab article {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.colaboradores .colab article img {
+  max-width: 200px;
+  border-radius: 100px;
+  border: 3px solid rgb(171, 171, 171);
+}
+
+.colaboradores .colab article h2 {
+  font-weight: 500;
+}
+
+.colaboradores .colab article p {
+  font-weight: 400;
+}
+
+/* estilo contatos */
+
+section.contato {
+  background-image: url(../src/img/header-bg1.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 400px;
+  color: #fff;
+  justify-content: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.contato .interface {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.contato h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.contato a button:hover {
+  font-size: 2.5rem;
+}
+
+/* Endereço */
+
+.endereco {
+  background-color: rgb(240, 240, 240);
+}
+
+.endereco .interface {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+.endereco h2 {
+  margin-bottom: 20px;
+}
+
+.endereco h3 {
+  margin: 20px;
+}
+
+.endereco i {
+  font-size: 2.8rem;
+  color: rgb(255, 202, 27);
+  margin-bottom: 20px;
+}
+
+.endereco p {
+  font-size: 1.4rem;
+  margin: 20px;
+}
+
+.endereco a button {
+  margin-bottom: 20px;
+}
+/* estilo footer */
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
